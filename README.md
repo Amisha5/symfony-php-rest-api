@@ -1,5 +1,6 @@
 # symfony-php-rest-api
 Implement CRUD Functionality using Symfony Framework
+Basic crud (create,delete ,update and read ) functionality is covered in symphony PHP.
 
 ## Prerequisites for creating symfony php project - Lab Setup
 1. For windows WAMP or XAMPP server, for Mac MAMP server, or for Linux LAMP server
@@ -11,6 +12,9 @@ Note: PHP Version 8.2 or later
 3. Symfony Framework version latest version 7
   [Symfony-Framework](https://symfony.com/doc/current/setup.html)
 
+Technologies :
+
+[![My Skills](https://skillicons.dev/icons?i=php, symfony)](https://skillicons.dev)
 
 ## Steps to create symfony project in PHP
 
@@ -60,6 +64,10 @@ Go inside public folder and run-
 ------------------------------------------------------------------------
 ### 9: Test API using Postman 
 ex: GET
+
+Note: only 2 major files changes required to create crud application 
+1. UserController.php (for calling api using route url to perform crud operation)
+2. routes.yaml (defined url's to route for different different crud functionality)
 ------------------
 GET http://localhost:8000/api/users -> Return all users.
 
