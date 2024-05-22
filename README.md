@@ -41,7 +41,7 @@ php bin/console make:controller UserController
 ### 7 Define API Routes 
 Config ->routes -> routes.yaml (define your url)
 
-### Step 8: Run the Application
+### 8: Run the Application
 Go inside public folder and run-
 php -S localhost:8000
 
@@ -49,6 +49,7 @@ php -S localhost:8000
 ex: GET
 ------------------
 GET http://localhost:8000/api/users -> Return all users.
+
 GET http://localhost:8000/api/users/{findByIdUser} -> Retrieves user by user Id.
 
 
