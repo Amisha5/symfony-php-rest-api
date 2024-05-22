@@ -1,0 +1,30 @@
+controllers:
+  resource:
+    path: ../src/Controller/
+    namespace: App\Controller
+  type: attribute
+# get UserList route
+user_api_index:
+  path: /api/users
+  controller: 'App\Controller\UserController::userList'
+  methods: ["GET"]
+# get User by id route
+product_api_search_by_id:
+  path: /api/users/{id}
+  controller: 'App\Controller\UserController::findByIdUser'
+  methods: ["GET"]
+# create User route
+product_api_create:
+  path: /api/users
+  controller: 'App\Controller\UserController::createUser'
+  methods: ["POST"]
+# update User route
+product_api_update:
+  path: /api/users/{id}
+  controller: 'App\Controller\UserController::updateUser'
+  methods: ["PUT"]
+# delete User route
+product_api_delete:
+  path: /api/users/{id}
+  controller: 'App\Controller\UserController::deleteUser'
+  methods: ["DELETE"]
