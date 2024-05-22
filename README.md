@@ -14,7 +14,7 @@ Note: PHP Version 8.2 or later
 
 Technologies :
 
-[![My Skills](https://skillicons.dev/icons?i=php,symfony)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=php,symfony,mysql)](https://skillicons.dev)
 
 ## Steps to create symfony project in PHP
 
