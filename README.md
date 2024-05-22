@@ -21,9 +21,10 @@ composer create-project symfony/skeleton:"7.0.*" symfony-rest-api
 composer require doctrine/orm symfony/maker-bundle doctrine/doctrine-migrations-bundle symfony/serializer symfony/serializer-pack
  
 ## 3: Configure Databse, .env file inside your symfony-rest-api project folder
-DATABASE_URL="postgresql://app:!ChangeMe!@127.0.0.1:5432/app?serverVersion=16&charset=utf8"
-replace above line if you are using mysql. make sure your port and database created 
-DATABASE_URL="mysql://root:root@127.0.0.1:8889/symfony-rest-api"
+   # DATABASE_URL="postgresql://app:!ChangeMe!@127.0.0.1:5432/app?serverVersion=16&charset=utf8"
+
+replace above line if you are using mysql data. make sure your port is correct and database created.
+   # DATABASE_URL="mysql://root:root@127.0.0.1:8889/symfony-rest-api"
                
 ## 4: Create an Entity 
 Create database called symfony-rest-api if not created and run below command
@@ -47,7 +48,7 @@ php -S localhost:8000
 ## 9: Test API using Postman 
 ex: GET
 ------------------
-GET http://localhost:8000/api/users -> Return all users
+GET http://localhost:8000/api/users -> Return all users.
 GET http://localhost:8000/api/users/{findByIdUser} -> Retrieves user by user Id.
 
 
